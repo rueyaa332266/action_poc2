@@ -5,5 +5,5 @@ on:
 
 jobs:
   demo:
-    uses: rueyaa332266/action_poc/.github/workflows/poc.yml@da9c6387af624c6c018dbd7f8560a0190fa45cf8
+    uses: rueyaa332266/action_poc/.github/workflows/poc.yml@10f4213e0925b5c37202c4c088f5559254cd35ec
     secrets: inherit
