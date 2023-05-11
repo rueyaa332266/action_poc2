@@ -1,0 +1,10 @@
+name: demo-new
+
+on:
+  workflow_dispatch:
+
+jobs:
+  demo:
+    steps:
+      - name: Checkout repository
+        uses: rueyaa332266/action_poc/.github/workflows/poc.yml
