@@ -7,4 +7,4 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
-      - uses: rueyaa332266/action_poc/.github/acions/com@master
+      - uses: rueyaa332266/action_poc/.github/actions/com@master
