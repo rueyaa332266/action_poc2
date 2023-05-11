@@ -5,4 +5,4 @@ on:
 
 jobs:
   demo:
-    uses: rueyaa332266/action_poc/.github/workflows/poc.yml@12b2ba8ea902c0669eaf69c7849f33f482b0cdfe
+    uses: rueyaa332266/action_poc/.github/workflows/poc.yml@feb18da2cc244e03cc98215b79743d4e46c2dd39
