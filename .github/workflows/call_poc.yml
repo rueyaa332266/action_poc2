@@ -5,4 +5,6 @@ on:
 
 jobs:
   demo:
-    uses: rueyaa332266/action_poc/.github/acions/com@master
+    runs-on: ubuntu-latest
+    steps:
+      - uses: rueyaa332266/action_poc/.github/acions/com@master
