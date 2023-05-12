@@ -11,4 +11,4 @@ jobs:
         with:
           repository: 'rueyaa332266/action_poc'
           ref: 'master'
-      - uses: .github/actions/com
+      - uses: ./.github/actions/com
