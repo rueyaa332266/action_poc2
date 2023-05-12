@@ -7,8 +7,4 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          repository: 'rueyaa332266/action_poc'
-          ref: 'master'
-      - uses: ./.github/actions/com
+      - uses: rueyaa332266/action_poc/.github/actions/com@master
