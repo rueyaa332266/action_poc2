@@ -6,8 +6,12 @@ on:
 jobs:
   demo:
     runs-on: ubuntu-latest
+    env:
+      TEST: 123
     steps:
       - uses: actions/checkout@v3
       - name: check files
         run: ls .github/workflows
       - uses: rueyaa332266/action_poc/.github/actions/com@master
+      - name: 2 echo
+        run: echo $TEST
