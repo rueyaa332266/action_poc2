@@ -8,4 +8,4 @@ env:
 
 jobs:
   demo:
-    uses: ./.github/workflows/reusable-e2e.yml
+    uses: ./.github/workflows/call_poc.yml
