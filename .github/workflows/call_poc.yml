@@ -2,18 +2,15 @@ name: demo-new
 
 on:
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   demo:
     runs-on: ubuntu-latest
     env:
-      TEST: 123
+      TEST_2: 1111
     steps:
       - uses: actions/checkout@v3
       - name: check files
         run: ls .github/workflows
       - uses: rueyaa332266/action_poc/.github/actions/com@master
-      - name: 2 echo
-        run: echo $TEST ${{ github.event.schedule && 'Schedule' }}
-      - name: 2 echo
-        run: echo $TEST ${{ github.event.schedule && 'Schedule' || '123' }}

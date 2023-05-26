@@ -1,0 +1,12 @@
+name: demo-new
+
+on:
+  workflow_dispatch:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    env:
+      TEST_1: 000
+    steps:
+      - uses: .github/workflow/call_poc.yml
