@@ -3,10 +3,9 @@ name: demo-new
 on:
   workflow_dispatch:
 
+env:
+  TEST_1: 000
+
 jobs:
   demo:
-    runs-on: ubuntu-latest
-    env:
-      TEST_1: 000
-    steps:
-      - uses: .github/workflow/call_poc.yml
+    uses: ./.github/workflows/reusable-e2e.yml
